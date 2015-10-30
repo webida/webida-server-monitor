@@ -20,8 +20,8 @@
 var webidaHost =
     decodeURIComponent(document.cookie.replace(/(?:(?:^|.*;\s*)webida\.host\s*\=\s*([^;]*).*$)|^.*$/, '$1'));
 
-var webida = '../../../common/src/webida/webida-0.3';
-var external = '../../../bower_components/';
+var webida = '../common/src/webida/webida-0.3';
+var external = '../bower_components/';
 var require = {
     baseUrl: '.',
     paths: {
@@ -33,6 +33,6 @@ var require = {
         left: 'js/left',
         right: 'js/right',
         monitorApi: 'js/monitor-client',
-        'webida-lib': '../../../common/src/webida',
+        'webida-lib': '../common/src/webida',
     }
 };

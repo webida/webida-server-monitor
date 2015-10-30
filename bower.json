@@ -1,0 +1,14 @@
+{
+    "name": "webida-server-monitor",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components"
+    ],
+    "dependencies": {
+        "moment": "~2.10.3",
+        "toastr": "~2.1.1",
+        "bootstrap-treeview": "~1.2.0",
+        "smalot-bootstrap-datetimepicker": "~2.3.4"
+    }
+}

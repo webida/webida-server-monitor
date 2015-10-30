@@ -1,0 +1,5 @@
+.project
+.idea
+bower_components
+node_modules
+deploy
